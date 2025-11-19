@@ -220,15 +220,6 @@ FOREIGN KEY (id_lote) REFERENCES lotes(id_lote),
 FOREIGN KEY (id_veiculo) REFERENCES veiculos(id_veiculo)
 );
 
-/*======================================
-TABELA USUÁRIO
-========================================*/
-create table usuario ( 
-id_usuario int not null,
-nome_usuario varchar (120),
-email_usuario varchar (120),
-senha_usuario varchar (255)
-);
 
 /*=====================================
 TABELA COMPRADORES
